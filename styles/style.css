@@ -1,0 +1,82 @@
+
+
+.containerCustom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.productIndex {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  background-color: #7E949F;
+  box-shadow: 0px 15px 6px -6px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+}
+/*imagen*/
+.product {
+  
+  width: 12rem;
+  height: auto;
+  border-radius: 1rem;
+}
+
+
+.productTitle {
+  padding-top: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+}
+.productTitle2 {
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+}
+.product-price {
+  color: #ffffff;
+  font-size: 18px;
+}
+.product-old-price {
+  font-size: 70%;
+  font-weight: 400;
+  color: #f3f3f3;
+}
+
+.clickable-div {
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 575px){
+
+}
+@media screen and (max-width: 767px){
+  .colCustom{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  .productIndex{
+    background-color: #7E949F;
+    padding-top: 0.5rem;
+  }
+
+  .respLinks{
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    text-align: center; /* Centrado del texto dentro del div */
+  }
+  
+}
+@media screen and (max-width: 991px){
+  .colCustom{
+    padding-top: 1rem;
+  }
+  
+}
+@media screen and (max-width: 1199px){
+  
+}
+@media screen and (max-width: 1399px){
+  
+}
